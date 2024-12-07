@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Attendance Tracker</string>
+    <string-array name="status_array">
+        <item>Present</item>
+        <item>Absent</item>
+    </string-array>
+    <string-array name="date_range_array">
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Custom</item>
+    </string-array>
+</resources>

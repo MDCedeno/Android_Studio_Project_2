@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp">
+
+    <!-- Name TextView -->
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- Date TextView -->
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date: 2024-12-04"
+        android:textSize="16sp"
+        android:textColor="#777"
+        android:layout_marginTop="4dp" />
+
+    <!-- Status TextView -->
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Present"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:textColor="#4CAF50"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+</LinearLayout>
